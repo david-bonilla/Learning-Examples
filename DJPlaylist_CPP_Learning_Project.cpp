@@ -51,8 +51,10 @@ int main()
     }
   } while (choice != '5');
 
-  return 0;
-}
+    string getArtist()
+    {
+      return artist; 
+    }
 
 // Function definitions
 void addSong(vector<pair<string, string>> &playlist)
